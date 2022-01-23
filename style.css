@@ -1,0 +1,212 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+}
+
+/* Starting-page */
+#starter-page {
+    background-image: url(img/2750008.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 615px;
+    text-align: center;
+}
+
+.nav {
+    padding: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #D8E9A8;
+    margin: 15px 20px;
+    padding: 0 20px;
+    font-size: 3rem;
+    
+}
+
+a:hover {
+    color: #519259;
+    animation-delay: 200ms;
+}
+
+/* About */
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 615px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+#about > div > div {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    height: 615px;
+    color: #191A19;
+    
+}
+
+.first-half {
+    background-color: #1E5128;
+    text-align: center;
+    padding-top: 275px;
+    font-family: 'Sacramento', cursive;
+    font-weight: 900;
+    font-size: 5rem;
+
+}
+
+.second-half {
+    background: #D8E9A8;
+    font-size: 1.5rem;
+    padding: 100px 100px;
+}
+
+/* Skills */
+
+#skills {
+    display: flex;
+    /* height: 615px; */
+    box-sizing: border-box;
+}
+
+#skills > div {
+    flex-basis: 50%;
+}
+
+.half-one {
+    background: #D8E9A8;
+    color: #191A19;
+    height: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Sacramento', cursive;
+
+}
+
+.half-two {
+    display: flex;
+    font-size: 3rem;
+    flex-basis: 200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #191A19;
+    color: #D8E9A8;
+    
+    
+}
+
+/* .half-two > div {
+    flex-grow: 1;
+} */
+
+.skill {
+    margin: 50px;
+    margin-left: 80px;
+}
+
+.skill:hover {
+    cursor: pointer;
+}
+
+.html:hover {
+    color: #F47340;
+}
+
+.css:hover {
+    color: #1C6DD0;
+}
+
+.javascript:hover {
+    color: #EBE645;
+}
+
+.reactjs:hover {
+    color: #548CFF;
+}
+
+.bootstrap:hover {
+    color: #612897;
+}
+
+.python:hover {
+    color: #FFCC1D;
+}
+
+.nodejs:hover {
+    color: #4E9F3D;
+}
+
+.sql:hover {
+    color: #1C6DD0;
+}
+
+.mongodb:hover {
+    color: #00ed64;
+}
+
+/* Contact */
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.one {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Sacramento', cursive;
+    background: #1E5128;
+    color: #191A19;
+}
+
+.two {
+    flex-basis: 50%;
+    font-size: 1.5rem;
+}
+
+.text {
+    margin: 50px;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 50px;
+    
+}
+
+.icon a {
+    color: #191A19;
+}
+
+.icon a:hover {
+    color: #519259;
+}
+
+/* footer */
+
+
+
+
